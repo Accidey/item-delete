@@ -1,0 +1,12 @@
+{
+  "command.itemdelete.added": "已将 %s 加入禁用列表",
+  "command.itemdelete.removed": "已将 %s 移出禁用列表",
+  "command.itemdelete.already": "%s 已在禁用列表中",
+  "command.itemdelete.missing": "%s 不在禁用列表中",
+  "command.itemdelete.covered": "%s 被通配条目 %s 覆盖，请先移除该通配条目",
+  "command.itemdelete.empty_hand": "主手没有物品",
+  "command.itemdelete.list_header": "当前禁用列表（%s 条）：",
+  "command.itemdelete.list_empty": "当前禁用列表为空",
+  "command.itemdelete.list_entry": "- %s",
+  "command.itemdelete.reload_hint": "配方与战利品表需要执行 /reload 后才会清理"
+}
