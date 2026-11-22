@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="删除物品"
+
+description='''
+删除物品 - 把指定物品从创造模式物品栏、配方产出、战利品表和村民交易中移除。
+Blocked items stay registered, but they no longer appear in creative tabs, recipe outputs, loot tables or villager trades.
+Use /itemdelete add and /itemdelete remove to edit the list with the item in hand.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
