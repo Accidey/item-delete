@@ -1,0 +1,12 @@
+{
+  "command.itemdelete.added": "Added %s to the blocked list",
+  "command.itemdelete.removed": "Removed %s from the blocked list",
+  "command.itemdelete.already": "%s is already blocked",
+  "command.itemdelete.missing": "%s is not in the blocked list",
+  "command.itemdelete.covered": "%s is covered by the wildcard entry %s, remove that entry first",
+  "command.itemdelete.empty_hand": "No item in the main hand",
+  "command.itemdelete.list_header": "Blocked entries (%s):",
+  "command.itemdelete.list_empty": "The blocked list is empty",
+  "command.itemdelete.list_entry": "- %s",
+  "command.itemdelete.reload_hint": "Run /reload to strip recipes and loot tables"
+}
